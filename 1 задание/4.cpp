@@ -62,7 +62,7 @@ int main()
     {
         MaxSum = func(n);
         MinSum = minsum;
-        cout << "The sum of 2 maximal elements: " << MaxSum;
-        cout << " The sum of 2 minimal elements: " << MinSum;
+        cout << "The sum of 2 maximal elements: " << MaxSum << endl;
+        cout << "The sum of 2 minimal elements: " << MinSum;
     }
 }
