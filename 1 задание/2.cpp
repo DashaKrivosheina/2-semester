@@ -33,6 +33,6 @@ int main()
     cout << "Enter number of elements ";
     cin >> n;
     MinElem = func(n);
-    cout << "The minimal element: " << MinElem;
-    cout << " The number of repetition: " << b;
+    cout << "The minimal element: " << MinElem << endl;
+    cout << "The number of repetition: " << b;
 }
