@@ -51,10 +51,10 @@ int func(int N)
 
 int main()
 {
-    int MaxSum,MinSum, n;
+    int MaxSum, MinSum, n;
     cout << "Enter number of elements ";
     cin >> n;
-    if (n == 1) 
+    if (n == 1)
     {
         cout << "Not enought numbers";
     }
