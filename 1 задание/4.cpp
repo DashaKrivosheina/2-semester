@@ -56,7 +56,7 @@ int main()
     cin >> n;
     if (n == 1)
     {
-        cout << "Not enought numbers";
+        cout << "Not enought numbers!";
     }
     else
     {
