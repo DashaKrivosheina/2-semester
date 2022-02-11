@@ -10,7 +10,7 @@ int func(int N)
     cin >> current;
     int minelem = current;
     --N;
-    for (int i = 0; i < N; i++)
+    for (int i = 0 ; i < N ; i++)
     {
         cout << "Enter an integer: ";
         cin >> current;
