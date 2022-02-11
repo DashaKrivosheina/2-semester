@@ -11,7 +11,7 @@ int func(int N)
     unsigned int min1 = 4294967295;
     unsigned int min2 = 4294967295;
     int maxsum = 0;
-    for (int i = 0; i < N; i++)
+    for (int i = 0 ; i < N ; i++)
     {
         if (N == 2)
         {
