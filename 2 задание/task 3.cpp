@@ -1,8 +1,8 @@
 ﻿#include <iostream>
 using namespace std;
 
-void func(int& a, int& b) {
-    int c;
+void func(double& a, double& b) {
+    double c;
     cin >> c;
     if (c != 0) {
         a += c;
@@ -11,10 +11,10 @@ void func(int& a, int& b) {
     }
 }
 
-int main()
+double main()
 {
-    int a = 0;
-    int b = 0;
+    double a = 0;
+    double b = 0;
     func(a, b);
     cout << a / b;
 }
